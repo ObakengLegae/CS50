@@ -1,25 +1,3 @@
-'''
-prompt = camelCase:
-return = snake_case: prompt(in snake_case)
-'''
-# prompt = input("camelCase: ")
-# prompt = "helloWorld"
-
-# words = list(prompt)
-
-# empty = []
-
-# for char in words:
-#     if char.islower():
-#         empty.append(char)
-#     else:
-#         empty.append("_")
-#         empty.append(char)
-
-# new_word = "".join(empty)
-
-# print(new_word)
-
 def main():
     prompt = input('camelCase: ')
     print(f'snake_case: {convert(prompt)}')
