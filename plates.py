@@ -40,7 +40,6 @@ def digit_alpha(plate):
                 elif i.isdigit():
                     current_char = plate.index(i)         
                     new_list = plate[current_char:]
-                    # other_list = my_list[:current_char]
 
                     result = all(item.isdigit() for item in new_list)
                     
